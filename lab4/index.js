@@ -145,7 +145,7 @@ console.log(
   )}`
 );
 console.log(
-  `ПАНОРАМНА КРИША          Вага: ${weightRoof.toFixed(
+  `ПАНОРАМНИЙ ДАХ          Вага: ${weightRoof.toFixed(
     2
   )}, BMW: ${RoofBmw.toFixed(2)}, Audi: ${RoofAudi.toFixed(
     2

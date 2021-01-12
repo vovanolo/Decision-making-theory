@@ -45,7 +45,6 @@ console.log(`Найкращі значення у рядку: ${laplas}`);
 
 console.log("Метод Вальда: ");
 
-// метод Вальда, в кожному рядку вибрати максимальне значення, потім мінімальне зі всіх максимальних - виграшний варіант
 let maxValda1 = [];
 let maxValda2 = [];
 let maxValda3 = [];
@@ -60,7 +59,7 @@ for (let i = 0; i < matrix.length; i++) {
   }
 }
 
-let maxNumValda = []; // Максимальне значення кожного рядка з таблиці
+let maxNumValda = [];
 maxNumValda.push(Math.max(...maxValda1));
 maxNumValda.push(Math.max(...maxValda2));
 maxNumValda.push(Math.max(...maxValda3));
@@ -88,13 +87,11 @@ if (minVald === maxNumValda[0]) {
 console.log(`Найкращі значення методом Вальда у рядку: ${vald}`);
 
 //Гурвіца
-const a = 0.5; // Нехай а = 0.5
+const a = 0.5;
 
 console.log("Методом Гурвіца: ");
 
-// Мінімальне значення і максимальне, max[0] min[0] => formula
-
-let minNumGurv = []; // Мінімальні значення в рядках
+let minNumGurv = [];
 
 minNumGurv.push(Math.min(...maxValda1));
 minNumGurv.push(Math.min(...maxValda2));
